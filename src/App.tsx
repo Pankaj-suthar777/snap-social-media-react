@@ -18,7 +18,7 @@ function App() {
 
         {/* private rote*/}
         <Route element={<RootLayout></RootLayout>}>
-          <Route path="/sign-in" element={<Home />} />
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </main>

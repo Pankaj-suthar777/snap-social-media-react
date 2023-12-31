@@ -1,5 +1,5 @@
 import React from "react";
-import Sideimage from "../../../public/assets/images/side-img.svg";
+import Sideimage from "../../assets/images/side-img.svg";
 import { Outlet, Navigate } from "react-router-dom";
 
 const AuthLayout = () => {
